@@ -1,0 +1,33 @@
+:root {
+	--pico-font-size: 100%;
+	--pico-line-height: 1.45;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	padding-block: 2rem;
+}
+
+.sheet {
+	max-width: 900px;
+	min-height: calc(100vh - 4rem);
+	margin-inline: auto;
+	padding: 2rem;
+	background-color: var(--pico-background-color);
+	border-left: 3px solid var(--pico-primary);
+	border-right: 3px solid var(--pico-primary);
+}
+
+header aside {
+	text-align: right;
+	height: 100%;
+}
+
+.portrait {
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: var(--pico-border-radius);
+	border: 2px solid var(--pico-primary);
+}

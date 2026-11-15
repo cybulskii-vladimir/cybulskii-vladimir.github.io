@@ -4,9 +4,79 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/pico.jade.css">
-	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+	<title>Cybulskii Vladimir - Personal page</title>
 </head>
 <body>
-	<p>example text</p>
+	<div class="container sheet">
+		<header class="grid">
+			<div>
+				<h1>Цибульский Владимир Алексеевич</h1>
+				<img src="images/pt.jpg" alt="Фото" class="portrait">
+			</div>
+
+			<aside>
+				<nav>
+					<ul>
+						<li><a href="#about">О себе</a></li>
+						<li><a href="#projects">Проекты</a></li>
+						<li><a href="#contacts">Контакты</a></li>
+					</ul>
+				</nav>
+			</aside>
+		</header>
+
+		<hr>
+
+		<main>
+			<section id="about">
+				<h2>О себе</h2>
+				<div class="grid">
+					<article>
+						<header><h3>Bio</h3></header>
+						<p>Вырос в г. Брянске, учусь на 2 курсе в СПбГУ на направлении "Программная Инженерия".</p>
+						<p>Исторически являюсь призером финального этапа всероссийских олимпиад школьников по английскому языку и географии.</p>
+					</article>
+
+					<article>
+						<header><h3>Интересы</h3></header>
+						<ul>
+							<li>Шахматы (любительский уровень)</li>
+							<li>Геология</li>
+							<li>Картография</li>
+							<li>Иностранные языки</li>
+							<li>Программирование приложений (в основном на Kotlin)</li>
+						</ul>
+					</article>
+				</div>
+			</section>
+
+			<section id="projects">
+				<h2>Проекты</h2>
+				<div class="grid">
+					<article>
+						<header><h3>Архиватор на основе алгоритма Хаффмана</h3></header>
+						<p>Простое консольное приложение, архивирующее/распаковывающее файлы при помощи канонического кода Хаффмана.</p>
+						<p>Создавалось в ходе учебной практики за 1 курс.</p>
+						<footer><a href="https://github.com/cybulskii-vladimir/huffman-archiver">Репозиторий на GitHub</a></footer>
+					</article>
+				</div>
+			</section>
+
+			<section id="contacts">
+				<h3>Контакты</h2>
+				<p>
+					Почта: <a href="mailto:v.a.tsibulsky@gmail.com">v.a.tsibulsky@gmail.com</a> &nbsp;&bull;&nbsp;
+					GitHub: <a href="https://github.com/cybulskii-vladimir">cybulskii-vladimir</a> &nbsp;&bull;&nbsp;
+					Telegram: <a href="https://t.me/kafelny_neyasit">waldemarische</a>
+				</p>
+			</section>
+		</main>
+
+		<footer>
+			<hr>
+			<small>© 2026 Цибульский Владимир Алексеевич</small>
+		</footer>
+	</div>
 </body>
 </html>
